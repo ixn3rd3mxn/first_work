@@ -11,4 +11,4 @@
 
 ## 3 Week
 - Learn & try backend/frontend code base product
-- try do langchain react agent py to js for check fast difference
+- try do LangGraph custom react agent .py to .js for check fast difference
