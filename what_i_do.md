@@ -12,3 +12,4 @@
 ## 3 Week
 - Learn & try backend/frontend code base product
 - try do LangGraph custom react agent .py to .js for check fast difference
+- Learn & do milvus vector db, try code base in WSL2 ubuntu and milvus vector db in Docker desktop
