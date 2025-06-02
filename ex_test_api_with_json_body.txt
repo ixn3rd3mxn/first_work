@@ -168,3 +168,36 @@
     "history": [],
     "response_mode": "blocking"
 }
+
+/////////////////////////////////////////////////////////
+
+{
+    "question": "in my milvus vector database, can you list collections?",
+    "main_prompt": "",
+    "api_key": "YOUR_OPENAI_API_KEY",
+    "llm": "gpt-4o-mini",
+    "tool": {
+        "llm": "gpt-4o",
+        "completion_params": {},
+        "tools": [
+            {
+                "id": "MCPNAME",
+                "name": "Connect MCP Server",
+                "url": "http://localhost:8000/mcp/",
+                "recursion limit": "50"
+            }
+        ]
+    },
+    "images": [],
+    "inputs": {},
+    "completion_params": {
+        "temperature": 1,
+        "top_p": 1,
+        "presence_penalty": 0
+    },
+    "knowledge": [],
+    "guards_input": [],
+    "guards_output": [],
+    "history": [],
+    "response_mode": "blocking"
+}
