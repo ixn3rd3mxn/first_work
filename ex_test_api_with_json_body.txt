@@ -183,8 +183,42 @@
             {
                 "id": "MCPNAME",
                 "name": "Connect MCP Server",
-                "url": "http://localhost:8000/mcp/",
-                "recursion limit": "50"
+                "url": "http://192.168.40.5:8000/mcp/"
+            }
+        ]
+    },
+    "images": [],
+    "inputs": {},
+    "completion_params": {
+        "temperature": 1,
+        "top_p": 1,
+        "presence_penalty": 0
+    },
+    "knowledge": [],
+    "guards_input": [],
+    "guards_output": [],
+    "history": [],
+    "response_mode": "blocking"
+}
+
+/////////////////////////////////////////////////////////
+
+{
+    "question": "ขอแอร์ที่ถูกที่สุด",
+    "main_prompt": "",
+    "api_key": "YOUR_OPENAI_API_KEY",
+    "llm": "gpt-4o-mini",
+    "tool": {
+        "llm": "gpt-4o",
+        "completion_params": {},
+        "tools": [
+            {
+                "id": "MongoDB",
+                "name": "MongoDB Search",
+                "url": "xxx",
+                "database": "xxx",
+                "collections": [{"collection" : "electronics_store"}],
+                "description": ""
             }
         ]
     },
